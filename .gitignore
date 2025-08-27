@@ -1,0 +1,80 @@
+# --- OS / Filesystem ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- Editors / IDEs ---
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-workspace
+*.sublime-project
+
+# --- Logs ---
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- Environment files ---
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# --- Node / JavaScript ---
+node_modules/
+coverage/
+.nyc_output/
+.next/
+.nuxt/
+out/
+.astro/
+.svelte-kit/
+.storybook/
+storybook-static/
+.turbo/
+.parcel-cache/
+.eslintcache
+.cache/
+dist/
+build/
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Vercel / Netlify / Serverless
+.vercel/
+.netlify/
+.serverless/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+.mypy_cache/
+.pytest_cache/
+.hypothesis/
+.venv/
+venv/
+.python-version
+pip-wheel-metadata/
+site/
+
+# --- Misc ---
+*.swp
+*~
+*.orig
+*.bak
+*.tmp
+
+# --- OS trash ---
+*.Trash-*/
